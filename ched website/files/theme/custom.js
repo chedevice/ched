@@ -5,9 +5,9 @@
 
  jQuery(function() {
 
-	var $ = jQuery;
+  var $ = jQuery;
 
-	// Define Theme specific functions
+  // Define Theme specific functions
   var Theme = {
     // Swiping mobile galleries wwith Hammer.js
     swipeGallery: function() {
@@ -65,9 +65,9 @@
     }
   }
 
-	$(document).ready(function() {
+  $(document).ready(function() {
 
-	  $("body").addClass("postload");
+    $("body").addClass("postload");
     Theme.swipeInit();
     Theme.hideCart('.page-content');
 
