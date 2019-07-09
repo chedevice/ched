@@ -565,7 +565,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
                 // otherwise, if the image is smaller than the container, scale it up to fit.
                 var scale = 1;
                 // depending on if which way we scale more, our origin will change 
-                var origin = 'left top'
+                var origin = 'center top'
                 if (imageSize.height < containerSize.height) {
                     scale = containerSize.height / imageSize.height;
                     origin = 'center top';
